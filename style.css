@@ -1,0 +1,352 @@
+body {
+    margin: 0%;
+    padding: 0%;
+background-color: black
+
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: black;
+    z-index: 10000;
+}
+.logo img{
+    height: 12vh;
+    margin-right: 500px;
+    margin-top: 10px;
+    
+}
+.logo h3{
+    color: blueviolet;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+.nav ul{ 
+    display: flex;
+}
+.nav i{
+    color: blueviolet;
+}
+.nav ul li{
+list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+}
+.nav ul li a:hover{
+    color: blueviolet;
+    font-weight: bolder;
+}
+.icon{ 
+    cursor: pointer;
+    color: blueviolet;
+}
+.icon i{
+    font-size: 20px;
+    margin-right: 5px;
+    padding: 0px 14px;
+}
+.big{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.inside1{
+    line-height: 1.2;
+}
+.inside1 h1{
+    font-size: 40px;
+}
+span{
+    color: blueviolet;
+    font-weight: bolder;
+}
+.line1{
+    height: 2px;
+    color: blueviolet;
+    width: 12%;
+    margin-top: 0px;
+    margin-left: 0px;
+    position:absolute;
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height: 500px;
+    width: 400px;
+    float: right;
+    border-radius: 10px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.btn1 a:hover{
+    background: black;
+    color: blueviolet;
+}
+.btn1 i{
+    color: black;
+    padding: 0px 10px;
+}
+.latest{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 600px;
+}
+.latest h1{
+    font-size: 30px;
+    color: blueviolet;
+    margin-left: 30px;
+}
+.container{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px 0px 80px;
+    overflow: visible ;
+}
+.inside{
+    border-style: double;
+    border-color: blueviolet;
+    background-color: rgb(27, 27, 27);
+    transition: all ease-in-out;
+    cursor: pointer;
+}
+.inside:hover{
+    transform: scale(1.2);
+}
+.inside img{
+height: 350px;
+padding: 20px;
+cursor: pointer;
+transition: all ease-in-out;
+}
+.heading{
+    color: white;
+    line-height: 1;
+    padding: 0px 50px 10px 50px;
+    align-items: center;
+}
+.heading h4{
+    font-size: 15px;
+}
+.heading h6{
+    font-size: 12px;
+}
+.btn2{
+    margin-top:-200px;
+    margin-left: 120px;
+    position: absolute;
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.356);
+    padding: 7px;
+    color:blueviolet;
+    border-radius: 30px;
+    opacity: 0;
+}
+.btn2 a:hover{
+    color: blueviolet;
+    opacity: 1;
+    transition: all ease-in-out;
+}
+.detail-container{
+    display: flex;
+    padding: 20px 0px;
+    
+}
+.detail{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 500px;
+
+}
+.inside-detail{
+    line-height: 1,7 ;
+    padding: 50px;
+}
+.inside-detail h1{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.line1{
+    height: 2px;
+    color: blueviolet;
+    width: 12%;
+    margin-top: 0px;
+    margin-left: 0px;
+    position:absolute;
+}
+.poster-detail{
+    margin-top: 100px;
+    margin-right: 150px;
+}
+.poster-detail img{
+    height: 500px;
+    width: 400px;
+    float: left;
+    border-radius: 10px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.btn1 a:hover{
+    background: black;
+    color: blueviolet;
+}
+.btn1 i{
+    color: black;
+    padding: 0px 10px;
+}
+p{
+    font-size: 20px;
+}
+.footercontainer{
+    position: absolute;
+    width: 100%;
+    margin-top:145%;
+    height: 30%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(31, 30, 30, 0.192);
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+    background-color:
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicon a i{
+    font-size: 20px;
+    color: black;
+    opacity: 0.9;
+}
+.socialicon a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialicon a i:hover{
+background-color: white
+}
+.footernav{
+    margin: 10px 10px;
+}
+.footercontainer ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: blueviolet;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+} 
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footernav p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.pagination-container{
+    position: absolute;
+    width: 50%;
+    margin-top:100%;
+    height: 10%;
+    padding: 5px;
+    margin-left: 300px;
+    background-color: rgba(31, 30, 30, 0.192);
+    border-radius: 10%;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    justify-content: center;
+}
+.pagination ul{
+    margin: 20px 30px;
+}
+.pagination ul li{
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    cursor: pointer;
+}
+.pag{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.pagination ul li:hover{
+    background-color: blueviolet;
+    transform:scale(1.2) ;
+    transition: all ease-in-out;
+}
+.pag:hover{
+    background-color: blueviolet;
+}
+.movie-latest{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+.movie-latest h1{
+    font-size: 30px;
+    color: blueviolet;
+    margin-left: 30px;
+}
+.vediocontainer{
+    margin-left: 300px;
+}
+.vedio{
+    border-radius: 10px;
+    padding-top: 100px;
+    
+}
